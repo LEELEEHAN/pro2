@@ -7,8 +7,8 @@ spring:
     static-path-pattern: /resources/**
 
   jpa:
-    open-in-view: false
-    show-sql: false
+    open-in-view: true
+    show-sql: true
     properties.hibernate:
       globally_quoted_identifiers: true
 
@@ -19,4 +19,4 @@ spring:
     password: puser1
 
 server:
-  port: 8888
+  port: 8080
