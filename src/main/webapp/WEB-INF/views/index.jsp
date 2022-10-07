@@ -8,6 +8,6 @@
 </head>
 <body>
 <%= "Hello World!" %>
-Hi penthegom !!
+Hi penthegom !! hi
 </body>
 </html>
