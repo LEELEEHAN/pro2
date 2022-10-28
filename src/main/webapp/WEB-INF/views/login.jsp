@@ -10,6 +10,17 @@
 
 </head>
 <body>
-	헬로우 워얼드 느낌표
+    <form>
+    <input type="text" id="Id" class ="User-Input" placeholder="ID">
+    <br>
+    <input type="password" id="Password" class="user-Input" placeholder="PASSWORD">
+    <br>
+    <button type="submit" id="login-Button" class="submit-button">
+        로그인
+    </button>
+    <button type="button" id="join-Button" class="submit-button" onclick ="location.href='./join'">
+        회원가입
+    </button>
+    </form>
 </body>
 </html>

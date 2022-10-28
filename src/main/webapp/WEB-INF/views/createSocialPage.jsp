@@ -10,6 +10,14 @@
 
 </head>
 <body>
-	헬로우 워얼드 느낌표
+    <div class="layout">
+            <form action="/social/post" method="post">
+                <input name="title" type="text">
+                <br>
+                <textarea name="content"></textarea>
+                <br>
+                <button>작성</button>
+            </form>
+    </div>
 </body>
 </html>

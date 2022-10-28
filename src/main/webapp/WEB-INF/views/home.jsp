@@ -10,6 +10,9 @@
 
 </head>
 <body>
-	헬로우 워얼드 느낌표
+    <button type="button" onclick="location.href='./club'">클럽</button>
+    <button type="button" onclick="location.href='./social'">쇼셜</button>
+    <button type="button" onclick="location.href='./mypage'">마이페이지</button>
+    <button type="button" onclick="location.href='./calendar'">일정</button>
 </body>
 </html>
